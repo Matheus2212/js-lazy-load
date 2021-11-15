@@ -1,0 +1,27 @@
+.lazy-load {
+  display: block;
+  position: relative;
+}
+
+.lazy-load img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.lazy-load.x4by3 {
+  padding-bottom: 75%;
+}
+
+.lazy-load.x16by9 {
+  padding-bottom: 56.5%;
+}
+
+.lazy-load.full img {
+  position: relative;
+}
